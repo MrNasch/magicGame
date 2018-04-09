@@ -20,13 +20,13 @@ class ViewController: UIViewController {
     //creat player
     class Player {
         var name = ""
-        var usedCharacters = [""]
+        var usedCharacters = [Characters]()
     }
     
     //creat plate
     class Plate {
-        var characters = [""]
-        var players = [""]
+        var characters = [Characters]()
+        var players = [Player]()
     }
     
     //creat class Chest
@@ -39,32 +39,35 @@ class ViewController: UIViewController {
         
     }
     
-    //creat class fighter
-    class Fighter {
-        var name = "pierre"
-        var life = 100
-        var attack = 10
-    }
-    
-    //creat class magus
-    class Magus {
-        var name = "paul"
-        var life = 120
-        var heal = 15
-    }
-    
-    //creat class colossus
-    class Colossus {
-        var name = "jacques"
-        var life = 180
-        var attack = 5
-    }
-    
-    //creat class dwarf
-    class Dwarf {
-        var name = "michel"
-        var life = 70
-        var attack = 25
+    //creat class CHaracters
+    class Characters {
+        //creat class fighter
+        class Fighter {
+            var name = "pierre"
+            var life = 100
+            var attack = 10
+        }
+        
+        //creat class magus
+        class Magus {
+            var name = "paul"
+            var life = 120
+            var heal = 15
+        }
+        
+        //creat class colossus
+        class Colossus {
+            var name = "jacques"
+            var life = 180
+            var attack = 5
+        }
+        
+        //creat class dwarf
+        class Dwarf {
+            var name = "michel"
+            var life = 70
+            var attack = 25
+        }
     }
 }
 
