@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         var magus = Magus()
         magus.name = "paul"
         magus.life = 120
-        magus.heal = 8
+        magus.heal = 15
     }
     
     // creat the colossus
@@ -44,5 +44,6 @@ class ViewController: UIViewController {
         dwarf.life = 70
         dwarf.attack = 25
     }
+    
 }
 
