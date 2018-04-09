@@ -21,12 +21,18 @@ class ViewController: UIViewController {
     class Player {
         var name = ""
         var usedCharacters = [Characters]()
+        let numberOfCharacters = 3
+        
+        init(){
+            
+        }
     }
     
     //creat plate
     class Plate {
         var characters = [Characters]()
         var players = [Player]()
+        let numberOfPlayers = 2
     }
     
     //creat class Chest
@@ -46,6 +52,10 @@ class ViewController: UIViewController {
             var name = "pierre"
             var life = 100
             var attack = 10
+            
+            func strike() {
+            
+            }
         }
         
         //creat class magus
@@ -53,6 +63,12 @@ class ViewController: UIViewController {
             var name = "paul"
             var life = 120
             var heal = 15
+            init(name: String){
+                self.name = name
+            }
+            func regen() {
+                
+            }
         }
         
         //creat class colossus
@@ -60,6 +76,10 @@ class ViewController: UIViewController {
             var name = "jacques"
             var life = 180
             var attack = 5
+            
+            func strike() {
+                
+            }
         }
         
         //creat class dwarf
@@ -67,6 +87,10 @@ class ViewController: UIViewController {
             var name = "michel"
             var life = 70
             var attack = 25
+            
+            func strike() {
+                
+            }
         }
     }
 }
