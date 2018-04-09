@@ -10,5 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var newGame : String = "Welcome to MagicFight please select 3 caracters"
 }
 
