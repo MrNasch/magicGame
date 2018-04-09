@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     class Game {
         // created var newGame imported when you creat a new game
         var newGame : String = "Welcome to MagicFight please select 3 characters"
+        var endGame : String = "Good job " + "you won"
     }
     
     //creat player
@@ -24,7 +25,8 @@ class ViewController: UIViewController {
     
     //creat plate
     class Plate {
-        
+        var characters = [""]
+        var players = [""]
     }
     
     //creat class fighter
