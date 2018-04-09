@@ -30,51 +30,27 @@ class ViewController: UIViewController {
     
     //creat class fighter
     class Fighter {
-        // creat function fighter
-        func creatFighter() {
-            var fighter = Fighter()
-            fighter.name = "pierre"
-            fighter.life = 100
-            fighter.attack = 10
-            
-            creatFighter()
-        }
+        var name = "pierre"
+        var life = 100
+        var attack = 10
     }
     //creat class magus
     class Magus {
-        // creat function magus
-        func creatMagus() {
-            var magus = Magus()
-            magus.name = "paul"
-            magus.life = 120
-            magus.heal = 15
-            
-            creatMagus()
-        }
+        var name = "paul"
+        var life = 120
+        var heal = 15
     }
     //creat class colossus
     class Colossus {
-        // creat function colossus
-        func creatColossus() {
-            var colossus = Colossus()
-            colossus.name = "jacques"
-            colossus.life = 180
-            colossus.attack = 5
-            
-            creatColossus()
-        }
+        var name = "jacques"
+        var life = 180
+        var attack = 5
     }
     //creat class dwarf
     class Dwarf {
-        // creat function Dwarf
-        func creatDwarf() {
-            var dwarf = Dwarf()
-            dwarf.name = "michel"
-            dwarf.life = 70
-            dwarf.attack = 25
-            
-            creatDwarf()
-        }
+        var name = "michel"
+        var life = 70
+        var attack = 25
     }
 }
 
