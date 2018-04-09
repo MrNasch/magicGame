@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     //creat game
     class Game {
         // created var newGame imported when you creat a new game
@@ -23,9 +24,6 @@ class ViewController: UIViewController {
         var usedCharacters = [Characters]()
         let numberOfCharacters = 3
         
-        init(){
-            
-        }
     }
     
     //creat plate
@@ -41,7 +39,7 @@ class ViewController: UIViewController {
     }
     
     //creat class randomKill
-    class RandoKill {
+    class RandomKill {
         
     }
     
@@ -60,12 +58,13 @@ class ViewController: UIViewController {
         
         //creat class magus
         class Magus {
-            var name = "paul"
+            var name: String
             var life = 120
             var heal = 15
             init(name: String){
                 self.name = name
             }
+            
             func regen() {
                 
             }
