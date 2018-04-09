@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     // created var newGame imported when you creat a new game
     var newGame : String = "Welcome to MagicFight please select 3 caracters"
     
-    // creat the fighter
+    // creat function fighter
     func creatFighter() {
         var fighter = Fighter()
         fighter.name = "pierre"
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         creatFighter()
     }
     
-    // creat the magus
+    // creat function magus
     func creatMagus() {
         var magus = Magus()
         magus.name = "paul"
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         creatMagus()
     }
     
-    // creat the colossus
+    // creat function colossus
     func creatColossus() {
         var colossus = Colossus()
         colossus.name = "jacques"
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         creatColossus()
     }
     
-    // creat the Dwarf
+    // creat function Dwarf
     func creatDwarf() {
         var dwarf = Dwarf()
         dwarf.name = "michel"
@@ -52,6 +52,6 @@ class ViewController: UIViewController {
         
         creatDwarf()
     }
-    let caracters = [creatFighter(), creatMagus(), creatColossus(), creatDwarf()]
+    let caracters = [fighter, magus, colossus, dwarf]
 }
 
