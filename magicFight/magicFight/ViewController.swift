@@ -29,6 +29,16 @@ class ViewController: UIViewController {
         var players = [""]
     }
     
+    //creat class Chest
+    class Chest {
+        
+    }
+    
+    //creat class randomKill
+    class RandoKill {
+        
+    }
+    
     //creat class fighter
     class Fighter {
         var name = "pierre"
