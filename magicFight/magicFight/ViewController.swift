@@ -52,6 +52,6 @@ class ViewController: UIViewController {
         
         creatDwarf()
     }
-    
+    let caracters = [creatFighter(), creatMagus(), creatColossus(), creatDwarf()]
 }
 
