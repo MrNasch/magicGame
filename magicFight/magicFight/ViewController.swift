@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         fighter.name = "pierre"
         fighter.life = 100
         fighter.attack = 10
+        
+        creatFighter()
     }
     
     // creat the magus
@@ -27,6 +29,8 @@ class ViewController: UIViewController {
         magus.name = "paul"
         magus.life = 120
         magus.heal = 15
+        
+        creatMagus()
     }
     
     // creat the colossus
@@ -35,6 +39,8 @@ class ViewController: UIViewController {
         colossus.name = "jacques"
         colossus.life = 180
         colossus.attack = 5
+        
+        creatColossus()
     }
     
     // creat the Dwarf
@@ -43,6 +49,8 @@ class ViewController: UIViewController {
         dwarf.name = "michel"
         dwarf.life = 70
         dwarf.attack = 25
+        
+        creatDwarf()
     }
     
 }
