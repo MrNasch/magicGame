@@ -43,11 +43,11 @@ class ViewController: UIViewController {
         
     }
     
-    //creat class CHaracters
+    //creat class CHaracters dictionnaires”
     class Characters {
         //creat class fighter
         class Fighter {
-            var name = "pierre"
+            var name = ""
             var life = 100
             var attack = 10
             
@@ -72,7 +72,7 @@ class ViewController: UIViewController {
         
         //creat class colossus
         class Colossus {
-            var name = "jacques"
+            var name = ""
             var life = 180
             var attack = 5
             
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         
         //creat class dwarf
         class Dwarf {
-            var name = "michel"
+            var name = ""
             var life = 70
             var attack = 25
             

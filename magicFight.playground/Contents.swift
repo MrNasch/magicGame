@@ -15,6 +15,8 @@ import UIKit
         var newGame : String = "Welcome to MagicFight please select 3 characters"
         var endGame : String = "Good job " + "you won"
     }
+
+
     
     //creat player
     class Player {
@@ -43,45 +45,37 @@ import UIKit
     
         //creat class CHaracters dictionnaires”
         class Characters {
-            var name = " "
-            var life = 100
-            var attack = 10
-        }
-    
-        //creat class fighter
-        class Fighter {
-            var name = ""
-            var life = 100
-            var attack = 10
+            var name: String
+            var life: Int
+            var attack: Int
+            
+            init(name: String, life: Int, attack: Int) {
+                self.name = name
+                self.life = 100
+                self.attack = 10
+            }
             
             func strike() {
                 
             }
         }
+    
+        //creat class fighter
+        class Fighter {
+            var name = "polo"
+        }
         
         //creat class magus
         class Magus {
-            var name: String
+            var name: String = ""
             var life = 120
             var heal = 15
-            init(name: String){
-                self.name = name
-            }
-            
-            func regen() {
-                
-            }
         }
         
         //creat class colossus
         class Colossus {
             var name = ""
-            var life = 180
             var attack = 5
-            
-            func strike() {
-                
-            }
         }
         
         //creat class dwarf
@@ -89,10 +83,6 @@ import UIKit
             var name = ""
             var life = 70
             var attack = 25
-            
-            func strike() {
-                
-            }
         }
 
 
